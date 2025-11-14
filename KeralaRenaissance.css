@@ -1,0 +1,288 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #0E0E0E;
+}
+
+header {
+    padding-bottom: 10%;
+}
+
+header #imageContainer {
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+}
+
+#imageContainer img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+    transition: transform 0.5s ease;
+}
+
+#imageContainer img.zoomOut {
+    transform: scale(1.1);
+}
+
+header h1 {
+    font-family: Texturina;
+    font-size: 270%;
+    color:
+        /*#C75C2F*/
+        rgb(212, 189, 158);
+    text-align: center;
+    /*text-decoration: underline #C75C2F solid;*/
+}
+
+header #gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, transparent 40%, #0E0E0E),
+        linear-gradient(to top, transparent 80%, #0E0E0E),
+        linear-gradient(to right, transparent 90%, #0E0E0E),
+        linear-gradient(to left, transparent 90%, #0E0E0E);
+}
+
+/************************************ #intro ********************************************/
+
+#intro {
+    padding-bottom: 15%;
+}
+
+#intro article {
+    color: white;
+    width: 80%;
+    margin: auto;
+    font-family: "Varela Round";
+    font-size: 130%;
+    line-height: 200%;
+    opacity: 0;
+    transform: translateY(40px);
+
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+#intro article.displayIntro {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/************************************ #reformers ********************************************/
+
+
+#reformers {
+    padding-bottom: 90%;
+    position: relative;
+}
+
+/*.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 5rem;
+    padding: 5rem;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+
+    position: relative;
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none;
+}*/
+
+#reformerCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5%;
+    justify-items: center;
+}
+
+#contentWindow {
+    background-color: #3B3527;
+    position: fixed;
+    width: 80%;
+    height: 80%;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.5);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    opacity: 0;
+    z-index: 998;
+    transition: opacity 0.5s ease;
+}
+
+#contentWindow button {
+    display: block;
+    margin: auto;
+    width: 10rem;
+    height: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-family: "Varela Round";
+    font-style: bolder;
+    transition: background-color 0.4s ease, transform 0.4s ease;
+}
+
+#contentWindow button:hover {
+    background-color: #DAA520;
+    transform: scale(0.97);
+}
+
+#contentWindow p {
+    font-family: Texturina;
+    margin: auto;
+    font-size: 1.1rem;
+    width: 80%;
+    color: white;
+    margin-top: 10%;
+    line-height: 1.7rem;
+}
+
+#contentWindow a {
+    text-decoration: none;
+    color: #DAA520;
+}
+
+#contentWindow a:hover {
+    text-decoration: underline;
+}
+
+#contentWindow img {
+    width: 10%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 83%;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+#contentWindow.showPopup {
+    opacity: 1;
+}
+
+.card {
+    width: 83%;
+    height: 32rem;
+    padding: 2%;
+    background-color: #4F3A2D;
+    text-align: center;
+    color: white;
+    font-family: "Varela Round";
+    font-size: 0.75rem;
+    border-radius: 1.5rem;
+
+    transition: transform 0.4s ease;
+}
+
+.card.emphasisCard {
+    transform: scale(1.04);
+}
+
+.card p {
+    padding-bottom: 5%;
+    font-size: 110%;
+}
+
+.card button {
+    width: 10rem;
+    height: 2rem;
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 0.5rem;
+    font-family: "Varela Round";
+    background-color: white;
+    font-weight: bold;
+    margin-bottom: 5%;
+    transition: background-color 0.4s ease, color 0.4s ease, transform 0.4s ease;
+}
+
+.card button:hover {
+    background-color: #6A7F45;
+    transform: scale(0.97);
+}
+
+.card img {
+    width: 40%;
+    display: block;
+    margin: auto;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+}
+
+/*#scrollButton {
+    display: flex;
+    justify-content: space-around;
+
+    padding-top: 5%;
+}
+
+#scrollButton button {
+    border: none;
+    width: 10rem;
+    height: 3rem;
+
+    border-radius: 0.5rem;
+    font-family: Texturina;
+    font-size: 120%;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    background-color: #faebd7;
+
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+#scrollButton button:hover {
+    background-color: #a3b18a;
+}*/
+
+#bodyGradient {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 997;
+    pointer-events: none;
+    transition: background 0.4s ease;
+}
+
+#bodyGradient.dull {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+
+/************************************ footer ********************************************/
+footer {
+    color: white;
+    background-color: rgb(60, 60, 60);
+    height: 9rem;
+    line-height: 1.5rem;
+    font-family: "Varela Round";
+}
+
+footer p {
+    margin: 1%;
+    color: white;
+    margin-top: 2%;
+    font-size: 90%;
+}
+
+footer a {
+    color: aquamarine;
+}

@@ -1,0 +1,112 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0E0E0E;
+}
+
+header img {
+    width: 100%;
+}
+
+nav {
+    background-color: #4F3A2D;
+    position: fixed;
+    z-index: 99;
+    height: 4rem;
+    margin-top: 1.5rem;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: Texturina;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1.5rem;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    transition: color 0.5s ease;
+}
+
+nav a:hover {
+    color: #DAA520;
+}
+
+#homepageImage {
+    position: relative;
+}
+
+#gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to top, transparent 10%, black),
+        linear-gradient(to bottom, transparent 40%, #0E0E0E);
+}
+
+#homepageImage h1 {
+    font-family: Texturina;
+    color: white;
+    font-size: 5rem;
+
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    z-index: 3;
+    opacity: 0;
+
+    transition: opacity 1s ease;
+}
+
+/************************** #intro ************************************************/
+#intro {
+    padding-top: 10%;
+
+}
+
+#intro p {
+    font-family: "Varela Round";
+    color: white;
+
+    width: 80%;
+    margin: auto;
+
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+
+#content {
+    padding-top: 10%;
+}
+
+#content article {
+    font-family: "Varela Round";
+    color: white;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 10%;
+}
+
+strong {
+    color: #CDA25F;
+}

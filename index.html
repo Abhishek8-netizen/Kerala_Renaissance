@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerala Renaissance</title>
+    <link rel="stylesheet" href="KeralaRenaissance.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="bodyGradient"></div>
+    <header>
+        <h1>Kerala Renaissance Leaders</h1>
+        <div id="imageContainer">
+            <img src="Pictures/homepage.jpg" alt="">
+            <div id="gradient"></div>
+        </div>
+    </header>
+
+    <section id="intro">
+        <article id="introArticle">
+            The Kerala Renaissance was a transformative socio-cultural movement of the 19th and early 20th centuries. It
+            challenged caste discrimination, untouchability, and social injustice, blending spiritual reform with
+            progressive activism. Influenced by both the Indian Renaissance and Western Enlightenment, it laid the
+            foundation for a modern, secular, and egalitarian Kerala.
+            <br><br>
+            Key figures like Sree Narayana Guru, Chattampi Swamikal, Ayyankali, and Sahodaran Ayyappan led the
+            charge—preaching equality, fighting for Dalit rights, and promoting rationalism. Events such as the
+            Aruvippuram temple consecration, Villuvandi protest, Vaikom Satyagraha, and Misra Bhojanam were milestones
+            in dismantling caste barriers.
+            <br><br>
+            Their efforts, along with contributions from others like Vaikunda Swamikal, T.K. Madhavan, and K. Kelappan,
+            led to the Temple Entry Proclamation of 1936 and reshaped Kerala’s social fabric.
+        </article>
+    </section>
+
+    <section id="reformers">
+        <div id="reformerCard" class="scroll-container">
+            <div class="card">
+                <img src="Pictures/KuriakoseChavara.jpg" alt="">
+                <h1>Kuriakose Elias Chavara</h1>
+                <p>
+                    <b>Born</b> <br> 10 February 1805, Kainakary, Alappuzha
+                    <br><br><br>
+                    <b>Died</b> <br> 3 January 1871
+                    <br><br><br>
+                    <b>Also known as:</b>
+                    <br>
+                    -
+                </p>
+                <button onclick="showContentWindow(0)">Learn more</button>
+            </div>
+
+            <div class="card">
+                <img src="Pictures/Vaikunda_Swami.jpg" alt="">
+                <h1>Vaikunta Swamikal (Muthukutty)</h1>
+                <p>
+                    <b>Born</b> <br> 1809, Swamithope
+                    <br><br><br>
+                    <b>Died</b> <br> 1851
+                    <br><br><br>
+                    <b>Also known as:</b>
+                    <br>
+                    Ayya Vaikundar <b>||</b> Vaikunda Swami <!--<b>||</b> Muthukutty-->
+                </p>
+                <button onclick="showContentWindow(1)">Learn more</button>
+            </div>
+
+            <div class="card">
+                <img src="Pictures/ThycaudAyya.jpg" alt="">
+                <h1>Subbarayan </h1>
+                <p>
+                    <b>Born</b> <br> 1814, Thycaud, Thiruvanthapuram
+                    <br><br><br>
+                    <b>Died</b> <br> 1909
+                    <br><br><br>
+                    <b>Also known as:</b>
+                    <br>
+                    Thycaud Ayya <b>||</b> Ayya Swamikal
+                </p>
+                <button onclick="showContentWindow(2)">Learn more</button>
+            </div>
+
+            <div class="card">
+                <img src="Pictures/ArattupuzhaVelayudhaPanicker.jpg" alt="">
+                <h1>Arattupuzha Velayudha Panicker</h1>
+                <p>
+                    <b>Born</b> <br> 1825, Arattupuzha, Kayamkulam
+                    <br><br><br>
+                    <b>Died</b> <br> 1874
+                    <br><br><br>
+                    <b>Also known as:</b>
+                    <br>
+                    Kallisseril Velayudha Perumal
+                </p>
+                <button onclick="showContentWindow(3)">Learn more</button>
+            </div>
+
+            <div class="card">
+                <img src="Pictures/chattampiSwamikal.jpg" alt="">
+                <h1>Ayyappan</h1>
+                <p>
+                    <b>Born</b> <br> 1825, Arattupuzha, Kayamkulam
+                    <br><br><br>
+                    <b>Died</b> <br> 1874
+                    <br><br><br>
+                    <b>Also known as:</b>
+                    <br>
+                    Chattampi Swamikal <b>||</b> Kunjan Pillai
+                </p>
+                <button onclick="showContentWindow(4)">Learn more</button>
+            </div>
+
+            <div class="card">
+                <img src="Pictures/sreeNarayanaGuru.jpg" alt="">
+                <h1>Sree Narayana Guru</h1>
+                <p>
+                    <b>Born</b> <br> 20 August 1855, Chempazhanthy
+                    <br><br><br>
+                    <b>Died</b> <br> 20 September 1928
+                    <br><br><br>
+                    <b>Also known as:</b>
+                    <br>
+                    Nanu Asan
+                </p>
+                <button onclick="showContentWindow(5)">Learn more</button>
+            </div>
+
+            <div class="card">
+                <img src="Pictures/Ayyankali.jpg" alt="">
+                <h1>Mahatma Ayyankali</h1>
+                <p>
+                    <b>Born</b> <br> 28 August 1863, Venganoor
+                    <br><br><br>
+                    <b>Died</b> <br> 18 June 1941
+                    <br><br><br>
+                    <b>Also known as:</b>
+                    <br>
+                    Urpillai <b>||</b> Moothapullai <b>||</b> King of Pulaya
+                </p>
+                <button onclick="showContentWindow(6)">Learn more</button>
+            </div>
+
+            <div class="card">
+                <img src="Pictures/VakkomMoulavi.jpg" alt="">
+                <h1>Vakkom Abdul Khader Moulavi</h1>
+                <p>
+                    <b>Born</b> <br> 28 October 1873, Vakkom, Thiruvananthapuram
+                    <br><br><br>
+                    <b>Died</b> <br> 31 October 1932
+                    <br><br><br>
+                    <b>Also known as:</b>
+                    <br>
+                    Vakkom Moulavi
+                </p>
+                <button onclick="showContentWindow(7)">Learn more</button>
+            </div>
+
+            <div class="card">
+                <img src="Pictures/Mannath_Padmanabhan_Pillai.jpg" alt="">
+                <h1>Mannath Padmanabhan</h1>
+                <p>
+                    <b>Born</b> <br> 2 January 1878, Perunna, Changanassery
+                    <br><br><br>
+                    <b>Died</b> <br> 25 February 1970
+                    <br><br><br>
+                    <b>Also known as:</b>
+                    <br>
+                    -
+                </p>
+                <button onclick="showContentWindow(8)">Learn more</button>
+            </div>
+
+            <div class="card">
+                <img src="Pictures/PoykayilAppachan.jpg" alt="">
+                <h1>Poykayil Appachan</h1>
+                <p>
+                    <b>Born</b> <br> 1879, Eraviperoor, Pathanamthitta District
+                    <br><br><br>
+                    <b>Died</b> <br> 1939
+                    <br><br><br>
+                    <b>Also known as:</b>
+                    <br>
+                    Poykayil Kumara Gurudevan <b>||</b> Poykayil Yohannan
+                </p>
+                <button onclick="showContentWindow(9)">Learn more</button>
+            </div>
+
+            <div class="card">
+                <img src="Pictures/PanditKaruppan.jpg" alt="">
+                <h1>Kandathil Karupan</h1>
+                <p>
+                    <b>Born</b> <br> 24 May 1885, Cheranalloor, Ernakulam
+                    <br><br><br>
+                    <b>Died</b> <br> 23 March 1938
+                    <br><br><br>
+                    <b>Also known as:</b>
+                    <br>
+                    Pandit Karupan
+                </p>
+                <button onclick="showContentWindow(10)">Learn more</button>
+            </div>
+
+            <div class="card">
+                <img src="Pictures/TK-Madhavan...jpg" alt="">
+                <h1>Thottakkattu Madhavan</h1>
+                <p>
+                    <b>Born</b> <br> 2 September 1885, Chettikulangara, Alappuzha
+                    <br><br><br>
+                    <b>Died</b> <br> 27 April 1930
+                    <br><br><br>
+                    <b>Also known as:</b>
+                    <br>
+                    Deshabhimani Madhavan
+                </p>
+                <button onclick="showContentWindow(11)">Learn more</button>
+            </div>
+
+            <div class="card">
+                <img src="Pictures/SahodaranAyyapan.jpg" alt="">
+                <h1>Kumbalathuparambu Ayyappan</h1>
+                <p>
+                    <b>Born</b> <br> 21 August 1889, Cherai, Ernakulam
+                    <br><br><br>
+                    <b>Died</b> <br> 6 March 1968
+                    <br><br><br>
+                    <b>Also known as:</b>
+                    <br>
+                    Sahodaran Ayyappan
+                </p>
+                <button onclick="showContentWindow(12)">Learn more</button>
+            </div>
+
+            <div class="card">
+                <img src="Pictures/KKelappan.jpg" alt="">
+                <h1>Koyapalli Kelappan Nair </h1>
+                <p>
+                    <b>Born</b> <br> 24 August 1889, Muchukunnu, Calicut
+                    <br><br><br>
+                    <b>Died</b> <br> 7 October 1971
+                    <br><br><br>
+                    <b>Also known as:</b>
+                    <br>
+                    K. Kelappan <b>||</b> Kerala Gandhi
+                </p>
+                <button onclick="showContentWindow(13)">Learn more</button>
+            </div>
+
+            <div class="card">
+                <img src="Pictures/ParvathyNenmenimangalam.jpg" alt="">
+                <h1>Parvathy Nenmenimangalam</h1>
+                <p>
+                    <b>Born</b> <br> 1890s (exact date uncertain), Thrissur district
+                    <br><br><br>
+                    <b>Died</b> <br> 1977
+                    <br><br><br>
+                    <b>Also known as:</b>
+                    <br>
+                    -
+                </p>
+                <button onclick="showContentWindow(14)">Learn more</button>
+            </div>
+
+            <div class="card">
+                <img src="Pictures/C_Kesavan.jpg" alt="">
+                <h1>C. Kesavan</h1>
+                <p>
+                    <b>Born</b> <br> 23 May 1891, Mayyanad, Kollam
+                    <br><br><br>
+                    <b>Died</b> <br> 7 July 1969
+                    <br><br><br>
+                    <b>Also known as:</b>
+                    <br>
+                    -
+                </p>
+                <button onclick="showContentWindow(15)">Learn more</button>
+            </div>
+
+            <div class="card">
+                <img src="Pictures/VTBhattathiripad.jpg" alt="">
+                <h1>V.T. Bhattathiripad</h1>
+                <p>
+                    <b>Born</b> <br> 26 March 1896, Mezhathur, Thrissur
+                    <br><br><br>
+                    <b>Died</b> <br> 12 October 1982
+                    <br><br><br>
+                    <b>Also known as:</b>
+                    <br>
+                    -
+                </p>
+                <button onclick="showContentWindow(16)">Learn more</button>
+            </div>
+
+            <div class="card">
+                <img src="Pictures/AryaPallam.jpg" alt="">
+                <h1>Arya Pallam</h1>
+                <p>
+                    <b>Born</b> <br> 1901, Malabar region
+                    <br><br><br>
+                    <b>Died</b> <br> 1972
+                    <br><br><br>
+                    <b>Also known as:</b>
+                    <br>
+                    -
+                </p>
+                <button onclick="showContentWindow(17)">Learn more</button>
+            </div>
+
+            <div class="card">
+                <img src="Pictures/DVelayudhan.jpg" alt="">
+                <h1>Dakshayani Velayudhan</h1>
+                <p>
+                    <b>Born</b> <br> 4 July 1912, Mulavukad, Ernakulam
+                    <br><br><br>
+                    <b>Died</b> <br> 20 July 1978
+                    <br><br><br>
+                    <b>Also known as:</b>
+                    <br>
+                    -
+                </p>
+                <button onclick="showContentWindow(18)">Learn more</button>
+            </div>
+        </div>
+
+        <div id="contentWindow">
+            <img src="Pictures/ArattupuzhaVelayudhaPanicker.jpg" alt="">
+            <p>
+                Content
+            </p>
+            <button onclick="closeContentWindow()"><b>Close</b></button>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>
+            Image courtesy of
+            <a target="_blank" href="https://www.india.gov.in/">Government of India</a>, licensed under the
+            <a target="_blank" href="https://data.gov.in/sites/default/files/Gazette_Notification_OGDL.pdf">
+                Government Open Data License – India (GODL)
+            </a>. Images have been cropped and edited.
+        </p>
+
+        <p>
+            Image :
+            <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Vaikunda_Swami.jpg">
+                Vaikunda Swami
+            </a> <br>
+            Author : Divinedigitals <br>
+            Licensed under
+            <a href="https://en.wikipedia.org/wiki/en:Creative_Commons">
+                Creative Commons
+            </a> <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">
+                Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+            </a>
+        </p>
+    </footer>
+    <script src="KeralaRenaissance.js"></script>
+</body>
+
+</html>
