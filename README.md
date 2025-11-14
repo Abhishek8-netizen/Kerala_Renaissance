@@ -17,8 +17,16 @@ such as Sree Narayana Guru, Ayyankali, Chattampi Swamikal, Vakkom Moulavi, Poyka
 - Detailed biography text loads dynamically via JavaScript.
 - Background dims with a gradient overlay to focus user attention.
 
+<br><br>
+
 # Preview
 ![Home_page](Screenshots/HomePage.png)
+<br>
+---
 ![Content_one](Screenshots/Content_one.png)
+<br>
+---
 ![Content_two](Screenshots/Content_two.png)
+<br>
+---
 ![Content_three](Screenshots/Content_three.png)
