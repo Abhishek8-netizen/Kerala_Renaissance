@@ -1,4 +1,4 @@
-# Kerala Renaissance Leaders
+# Kerala Renaissance Leaders (`index.html`)
 An interactive web project showcasing key figures of the Kerala Renaissance, a major socio-cultural reform movement that transformed Kerala in the 
 19th and 20th centuries. The website provides brief biographies, images, and pop-up windows with detailed information about 19 influential reformers 
 such as Sree Narayana Guru, Ayyankali, Chattampi Swamikal, Vakkom Moulavi, Poykayil Appachan, Dakshayani Velayudhan, and more.
@@ -30,3 +30,17 @@ such as Sree Narayana Guru, Ayyankali, Chattampi Swamikal, Vakkom Moulavi, Poyka
 <br>
 ---
 ![Content_three](Screenshots/Content_three.png)
+
+<br><br>
+
+# Aruvippuram Idol Consecration (`Aruvippuram.html`)
+This subpage provides an in-depth explanation of the Aruvippuram Pratishta (1888) performed by Sree Narayana Guru, one of the most pivotal events 
+in Kerala’s social reform history. The page is part of the Kerala Renaissance Leaders project.
+
+<br><br>
+
+# Preview
+![Aruvippuram_homepage](Screenshots/Aruvippuram_homepage.png)
+<br>
+---
+![Aruvippuram_content](Screenshots/Aruvippuram_content.png)
